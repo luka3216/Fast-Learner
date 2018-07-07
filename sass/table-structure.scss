@@ -1,0 +1,14 @@
+.table {
+  border: solid 1px;
+  width:100%;
+  
+}
+th, td {
+  margin:0;
+  padding:3px;
+  border-right: solid 1px grey;
+  border-bottom: solid 1px grey;
+}
+.side .table {
+  border-radius: 5px;
+}

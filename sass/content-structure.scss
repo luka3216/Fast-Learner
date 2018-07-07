@@ -1,0 +1,17 @@
+#bottom {
+  display:flex;
+  flex-direction: column;
+  #bottom-left {
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+  }
+}
+.panel {
+  border-style:solid;
+  border-radius:7px;
+  border-width:1px;
+  border-color:rgb(35, 35, 80);
+  padding: 7px;   
+  margin-top: 30px;
+}

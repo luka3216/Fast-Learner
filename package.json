@@ -1,0 +1,26 @@
+{
+  "name": "fastlearner",
+  "version": "1.0.0",
+  "description": "helps with memorizing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "build": "webpack"
+  },
+  "author": "luxon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.0",
+    "sass": "^1.9.0",
+    "vanilla-router": "^1.2.7"
+  },
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
