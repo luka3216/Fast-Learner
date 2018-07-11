@@ -87,8 +87,19 @@ table tr:nth-child(odd) {
   padding: 25px;
 }
 
+.rounded-left {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.rounded-right {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
 a {
   text-decoration: none;
+  color: black;
 }
 
 .uppercase {
@@ -145,6 +156,14 @@ body {
 
 .backgrount-light {
   background-color: #999a9b;
+}
+
+.background-green {
+  background-color: #528d52;
+}
+
+.background-red {
+  background-color: #944944;
 }
 
 #start-training {
