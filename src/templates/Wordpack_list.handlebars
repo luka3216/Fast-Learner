@@ -1,0 +1,26 @@
+<div class="background-light-dark bordered rounded pack-list">
+  <table class="background-light bordered">
+    <thead>
+      <tr class="capitalize">
+        <th>Name</th>
+        <th>language</th>
+        <th>word count</th>
+        <th>Hits</th> 
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each wordpacks}}
+      <tr>
+        <td>
+          <a data-navigo href="/wordpacks/{{_id}}/">{{name}}</a>
+        </td>
+        <td>{{language}}</td>
+        <td>{{count}}</td>
+        <td>{{hits}}</td>
+        <td>{{date}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+
+#header-menu {
+  position: fixed;
+  width: 100%;
+}
+
+#top-panel {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-bottom-panel {
+  position: relative;
+  display: none;
+  border-bottom: solid 1px #24292e;
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.menu-item {
+  padding: 5px;
+}
+
+.separator {
+  width: 2px;
+}
+
+.bordered {
+  border: solid 1px black;
+}
+
+.rounded {
+  border-radius: 5px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.pack-list {
+  margin: 40px;
+  padding: 0;
+}
+
+table, th, tr {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 12px;
+}
+table a, th a, tr a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+table a:hover, th a:hover, tr a:hover {
+  text-decoration: underline;
+}
+
+table {
+  padding: 0;
+}
+
+table tr:nth-child(even) {
+  background-color: #444955;
+}
+
+table tr:nth-child(odd) {
+  background-color: #666477;
+}
+
+.intro-item {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.panel {
+  margin: 40px;
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.grey {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.highlight:hover {
+  color: white;
+}
+
+body {
+  background-color: #999a9b;
+}
+
+.background-light-blue {
+  background-color: lightblue;
+}
+
+.background-blue {
+  background-color: #0000d1;
+}
+
+.background-dark-blue {
+  background-color: #000096;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-dark {
+  background-color: #24292e;
+}
+
+.background-light-dark {
+  background-color: #505861;
+}
+
+.backgrount-light {
+  background-color: #999a9b;
+}
+
+#start-training {
+  background-color: #999a9b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,25 +1,36 @@
 {
   "name": "fastlearner",
   "version": "1.0.0",
-  "description": "helps with memorizing",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js",
-    "build": "webpack"
+    "start": "node index.js",
+    "build": "webpack --display-error-details",
+    "build-templates": "handlebars ./src/templates -f ./src/js/templates.js",
+    "watch": "webpack --watch --progress --display-error-details & sass ./src/sass/style.scss:./public/css/style.css --watch"
   },
-  "author": "luxon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u%3Aluka3216/Fast-Learner.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/u%3Aluka3216/Fast-Learner/issues"
+  },
+  "homepage": "https://github.com/u%3Aluka3216/Fast-Learner#readme",
   "dependencies": {
-    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "handlebars": "^4.0.11",
-    "jquery": "^3.3.1",
-    "mongodb": "^3.1.0",
-    "sass": "^1.9.0",
-    "vanilla-router": "^1.2.7"
+    "navigo": "^7.1.2"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "sass": "^1.9.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   }
